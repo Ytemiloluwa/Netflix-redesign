@@ -11,7 +11,6 @@
 		DA3AA4F123C689CC009D9620 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3AA4F023C689CC009D9620 /* SceneDelegate.swift */; };
 		DA3AA4F323C689CC009D9620 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3AA4F223C689CC009D9620 /* ContentView.swift */; };
 		DA3AA4F523C689E7009D9620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3AA4F423C689E7009D9620 /* Assets.xcassets */; };
-		DA3AA4F823C689E7009D9620 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3AA4F723C689E7009D9620 /* Preview Assets.xcassets */; };
 		DA3AA4FB23C689E7009D9620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3AA4F923C689E7009D9620 /* LaunchScreen.storyboard */; };
 		DA3AA50623C689E8009D9620 /* Netflix_redesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3AA50523C689E8009D9620 /* Netflix_redesignTests.swift */; };
 		DA3AA51123C689E8009D9620 /* Netflix_redesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3AA51023C689E8009D9620 /* Netflix_redesignUITests.swift */; };
@@ -40,7 +39,6 @@
 		DA3AA4F023C689CC009D9620 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA3AA4F223C689CC009D9620 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA3AA4F423C689E7009D9620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA3AA4F723C689E7009D9620 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA3AA4FA23C689E7009D9620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA3AA4FC23C689E7009D9620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA3AA50123C689E8009D9620 /* Netflix redesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netflix redesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +77,7 @@
 		DA3AA4E223C689CB009D9620 = {
 			isa = PBXGroup;
 			children = (
+				DA3AA4F423C689E7009D9620 /* Assets.xcassets */,
 				DA3AA4ED23C689CC009D9620 /* Netflix redesign */,
 				DA3AA50423C689E8009D9620 /* Netflix redesignTests */,
 				DA3AA50F23C689E8009D9620 /* Netflix redesignUITests */,
@@ -102,20 +101,10 @@
 				DA3AA4EE23C689CC009D9620 /* AppDelegate.swift */,
 				DA3AA4F023C689CC009D9620 /* SceneDelegate.swift */,
 				DA3AA4F223C689CC009D9620 /* ContentView.swift */,
-				DA3AA4F423C689E7009D9620 /* Assets.xcassets */,
 				DA3AA4F923C689E7009D9620 /* LaunchScreen.storyboard */,
 				DA3AA4FC23C689E7009D9620 /* Info.plist */,
-				DA3AA4F623C689E7009D9620 /* Preview Content */,
 			);
 			path = "Netflix redesign";
-			sourceTree = "<group>";
-		};
-		DA3AA4F623C689E7009D9620 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				DA3AA4F723C689E7009D9620 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		DA3AA50423C689E8009D9620 /* Netflix redesignTests */ = {
@@ -199,7 +188,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = Tello;
 				TargetAttributes = {
 					DA3AA4EA23C689CC009D9620 = {
@@ -241,7 +230,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA3AA4FB23C689E7009D9620 /* LaunchScreen.storyboard in Resources */,
-				DA3AA4F823C689E7009D9620 /* Preview Assets.xcassets in Resources */,
 				DA3AA4F523C689E7009D9620 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +330,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -402,6 +391,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -435,7 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Netflix redesign/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 524ZVN5P7L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Netflix redesign/Info.plist";
@@ -455,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Netflix redesign/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 524ZVN5P7L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Netflix redesign/Info.plist";
